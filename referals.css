@@ -1,0 +1,213 @@
+*{
+    background-color: #191919;
+    font-family: sans-serif;
+}
+.container{
+    min-height: calc(100vh - 62px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1.65rem;
+    padding-top: 4.65rem;
+    border-bottom:1px solid hsla(0,0%,100%,.062745098) ;
+}
+.top{
+    display: flex;
+    margin-bottom: 1rem;
+    max-width: 75rem;
+    width: 100%;
+}
+.title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.heading{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+.subheading{
+    color: #b7b7bd;
+    line-height: 1.25rem;
+    font-size: 0.9rem;
+}
+.referalcard{
+    position: relative;
+    padding: 1rem;
+    border-radius: 1.3rem;
+    max-width: 35rem;
+    background: #151515;
+    box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804);
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.referaltitle{
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 3.1rem;
+    background: #151515;
+    color: #fff;
+    padding: 0.775rem 0;
+    margin: 0;
+}
+.referalsubtitle{
+    font-size: 1.2rem;
+    line-height: normal;
+    letter-spacing: 0;
+    color: #fff;
+    margin-top: 1.1625rem;
+}
+.buttonact{
+    margin-top: 2.5rem;
+    vertical-align: bottom;
+}
+.buttonact button{
+    color: #fff;
+    text-decoration: none;
+    background: #3eb489;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem 12rem 1rem 12rem;
+    border-radius: 0.3rem;
+    border: none;
+    font-size: 1rem;
+}
+.footer {
+    color: #fff; 
+    padding: 20px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo  {
+  margin-bottom: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footerdes {
+    display: flex;
+}
+
+.text {
+    margin-right: 20px; 
+}
+
+
+.text a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.text a:hover {
+    text-decoration: underline; 
+}
+.navbar {
+  overflow: hidden;
+  
+}
+.nav-container{
+    border-bottom:1px solid hsla(0,0%,100%,.062745098) ;
+    background-color: transparent 0 0 no-repeat padding-box; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+
+ 
+}
+
+.navbar li a {
+  display: block;
+  color: #a7a7a9; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar li a:hover {
+color: #e0d9d9; 
+}
+.trade{
+  margin-left: 5.5rem;
+}
+.tradebtn{
+  background: #3eb489;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex; 
+     align-items: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    float: right;
+   
+}
+.connect{
+  background: transparent;
+    border-radius: 2px;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex; 
+     align-items: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    float: right;
+}
+.sociallinks{
+  display: flex;
+  justify-content: center;
+  /* margin: 0 auto 2.4rem; */
+}
+.socaillogo{
+  margin-left: 1.5rem;
+  align-self: center;
+}

@@ -1,0 +1,261 @@
+*{
+    background-color: #191919;
+    font-family: sans-serif;
+}
+.container{
+    min-height: calc(100vh - 62px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1.65rem;
+    padding-top: 4.65rem;
+    border-bottom:1px solid hsla(0,0%,100%,.062745098) ;
+}
+/* title */
+.top{
+    display: flex;
+    margin-bottom: 1rem;
+    max-width: 75rem;
+    width: 100%;
+}
+.title{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.heading{
+    font-size: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 700;
+}
+.subheading{
+    color: #b7b7bd;
+    line-height: 1.25rem;
+    font-size: 0.9rem;
+}
+/* cards */
+.twocards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+    margin-top: 0.8rem;
+    color: white;
+}
+.card1{
+    padding: 1.5rem 1.5rem 1rem;
+    border: 1px solid #4d4d4e;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+}
+.cardtitle{
+    font-size: 1rem;
+    line-height: 0.1rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    color: #fff;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.carddivider{
+    height: 1px;
+    background: #4d4d4e;
+    margin: 1.05rem -1.5rem;
+}
+.cardContent{
+    display: grid;
+    grid-row-gap: 0.8rem;
+}
+.cardRow{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-column-gap: 20rem;
+    padding: unset;
+}
+.cardLabel{
+    color: hsla(0,0%,100%,.7);
+}
+.cardRow>div:last-child{
+    text-align: right;
+}
+.tools{
+    position: relative;
+}
+.handle{
+    cursor: help;
+    position: relative;
+    display: inline-flex;
+    text-decoration: underline;
+    -webkit-text-decoration-style: dashed;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    -webkit-text-decoration-color: hsla(0,0%,100%,.6);
+    text-decoration-color: hsla(0,0%,100%,.6);
+}
+.middle{
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    max-width: 75rem;
+    width: 100%;
+}
+.titlemask{
+    display: flex;
+}
+.maskicon{
+    position: relative;
+    margin-right: 0.8rem;
+    display: flex;
+}
+.masktitle{
+    font-size: 1rem;
+    line-height: 2.1rem;
+    letter-spacing: 0;
+    color: #fff;
+}
+.masksubtitle{
+    font-size: 0.8rem;
+    line-height: 0.5rem;
+    letter-spacing: 0;
+    color: #a9a9b0;
+}
+.stats-piechart {
+    margin: -1rem -1rem -1rem 1.5rem;
+}
+.statsblock{
+    width: 100%;
+}
+.footer {
+    color: #fff; 
+    padding: 20px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo  {
+  margin-bottom: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footerdes {
+    display: flex;
+}
+
+.text {
+    margin-right: 20px; 
+}
+
+
+.text a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.text a:hover {
+    text-decoration: underline; 
+}
+.navbar {
+  overflow: hidden;
+  border-bottom:1px solid hsla(0,0%,100%,.062745098) ;
+  
+}
+.nav-container{
+    background-color: transparent 0 0 no-repeat padding-box; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+
+ 
+}
+
+.navbar li a {
+  display: block;
+  color: #a7a7a9; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar li a:hover {
+color: #e0d9d9; 
+}
+.trade{
+  margin-left: 5.5rem;
+}
+.tradebtn{
+  background: #3eb489;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex; 
+     align-items: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    float: right;
+   
+}
+.connect{
+  background: transparent;
+    border-radius: 2px;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex; 
+     align-items: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    float: right;
+}
+.sociallinks{
+  display: flex;
+  justify-content: center;
+  
+  /* margin: 0 auto 2.4rem; */
+}
+.socaillogo{
+  margin-left: 1.5rem;
+  align-self: center;
+}
+

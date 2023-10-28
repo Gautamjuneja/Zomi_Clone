@@ -1,0 +1,355 @@
+* {
+  box-sizing: border-box;
+  font-family: "Relative", sans-serif;
+  /* letter-spacing: .5px; */
+  background-color: #191919;
+}
+* {
+  -webkit-tap-highlight-color: white;
+}
+.Home-page{
+    min-height: 100vh;
+}
+/* .Top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-top: 6.2rem;
+    position: relative;
+    padding-bottom: 6.4rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+    margin-top: -6.2rem;
+} */
+
+.main-container {
+  max-width: 126.4rem;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+  margin: 0 auto;
+}
+
+.section-container {
+  position: relative;
+  width: 100%;
+  padding-top: 6.2rem;
+}
+.Title-section {
+  max-width: 53rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Home-Title {
+  font-size: 4.7rem;
+  line-height: 6.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0;
+  color: white;
+}
+.paragraph {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  max-width: 44.4rem;
+  color: #cecece;
+  margin-bottom: 2.8rem;
+}
+.button {
+  background:#3eb489;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #fff;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-decoration: none;
+  box-sizing: border-box;
+  position: relative;
+  min-height: 3.6rem;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+.section-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 6.2rem;
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+.first_block {
+  box-shadow: 0 0.7rem 0.8rem rgba(0, 0, 0, 0.2);
+  border: 1px solid hsla(0, 0%, 100%, 0.0784313725490196);
+  border-radius: 4px;
+  max-width: 38rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+  margin: 1.6rem 0;
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+}
+.first_title {
+  color: #cecece;
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  letter-spacing: 0;
+}
+
+.first_info {
+  font-family: "RelativeNumber";
+  color: #fff;
+  font-size: 2.9rem;
+  line-height: 3.9rem;
+  letter-spacing: 0;
+}
+.imagecontainer {
+  margin-left: 3.55rem;
+  margin-right: 3.95rem;
+}
+.Benefits {
+  border-top: 1px solid #4d4d4e;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 5.6rem;
+  padding-bottom: 5.6rem;
+}
+.benefits-container {
+  padding: 2.4rem 0;
+}
+.benefits-description {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  max-width: 29rem;
+  color: #cecece;
+  letter-spacing: 0;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    padding: 0 0 1.5rem;
+    font-size: 1.85rem;
+}
+.icon-image{
+
+}
+.icon-title {
+  font-size: 2.2rem;
+  line-height: 2.8rem;
+  font-weight: 400;
+  color: #cecece;
+  margin-left: 1.5rem;
+}
+.card-section{
+    padding-top: 7.75rem;
+    padding-bottom: 7.75rem;
+}
+.cardtext{
+    color: #cecece;
+    font-size: 3.8rem;
+    line-height: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 2.1rem;
+    letter-spacing: 0;
+}
+.card-maker{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1.5rem;
+}
+.card-makers{
+    position: relative;
+    padding: 2.325rem;
+    max-width: 59.2rem;
+    background: #151515;
+    box-shadow: 0 0.5rem 1.3rem rgba(0,0,0,.5215686274509804);
+    border: 1px solid #4d4d4e;
+    border-radius: 8px;
+}
+.card-des{
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+    color: #fff;
+    margin-top: 1.325rem;
+}
+.card-action{
+    margin-top: 1.9375rem;
+}
+.card-option{
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    letter-spacing: 0;
+    color: #cecece;
+    margin-top: 1.9375rem;
+}
+.buy{
+    background: #3eb489;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 3.6rem;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+}
+.buy.read{
+    background: transparent;
+    border: 1px solid #a0a3c4;
+}
+
+.footer {
+    color: #fff; 
+    padding: 20px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo  {
+  margin-bottom: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footerdes {
+    display: flex;
+}
+
+.text {
+    margin-right: 20px; 
+}
+
+
+.text a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.text a:hover {
+    text-decoration: underline; 
+}
+.navbar {
+  overflow: hidden;
+  border-bottom:1px solid hsla(0,0%,100%,.062745098) ;
+  
+}
+.nav-container{
+  background-color: transparent 0 0 no-repeat padding-box; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navbar ul {
+  list-style-type: none; 
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  float: left;
+
+ 
+}
+
+.navbar li a {
+  display: block;
+  color: #a7a7a9; 
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar li a:hover {
+color: #e0d9d9; 
+}
+.trade{
+  margin-left: 5.5rem;
+}
+.tradebtn{
+  background: #3eb489;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex; 
+     align-items: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    float: right;
+   
+}
+.connect{
+  background: transparent;
+    border-radius: 2px;
+    border: 1px solid white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    text-decoration: none;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 2.6rem;
+    display: inline-flex; 
+     align-items: center;
+    cursor: pointer;
+    border: none;
+    appearance: none;
+    float: right;
+}
+.sociallinks{
+  display: flex;
+  justify-content: center;
+  /* margin: 0 auto 2.4rem; */
+}
+.socaillogo{
+  margin-left: 1.5rem;
+  align-self: center;
+}
+
